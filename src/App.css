@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    --text-color: #e1e2e6;
+    --text-color-error: #db3e3e;
+    --color-dark: #2a1e38;
+    --bg-dark: #070613;
+    --bg-bright: #382350;
+    --bg-light: #544864;
+    --shadow: #0e24447e;
+}
+
+
+
+
+.App {
+  /* margin:; */
+  color: white;
+  display: flex;
+  flex-direction: row;
+   background: linear-gradient(to top, var(--bg-dark), var(--bg-bright));
+  
+}
